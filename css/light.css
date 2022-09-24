@@ -1,0 +1,13 @@
+
+.card{
+    background-color:cornflowerblue;
+    }
+    
+    .checked{
+        text-decoration: line-through;
+        background-color: gray;
+    }
+    
+    h1{
+        color: black;
+    }
