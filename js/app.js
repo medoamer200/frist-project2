@@ -1,21 +1,23 @@
 
 
 let li = document.getElementsByTagName('link')
+console.log(li[2].href);
+
 let btnn = document.getElementsByTagName('button')
-console.log(btnn);
+// console.log(btnn);
 let input = document.getElementById('input');
 let btn = document.getElementById('btn');
 let notaskes = document.getElementById('notaskes');
 let alltaskes = document.getElementById('alltaskes');
 
 function change(){
-    console.log(li[0].href);
+    // console.log(li);
     
-    if( li[0].href == './css/dark.css'){
-        li[0].href = './css/light.css'
+    if( li[2].href == 'file:///D:/ssd%20acadimy/session10/task1/css/dark.css'){
+        li[2].href = 'file:///D:/ssd%20acadimy/session10/task1/css/light.css'
 
     }else{
-        li[0].href == './css/dark.css'
+        li[2].href = 'file:///D:/ssd%20acadimy/session10/task1/css/dark.css'
     }
 }
 
